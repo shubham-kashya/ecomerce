@@ -1,0 +1,33 @@
+*{box-sizing: border-box; margin: 0; font-family: 'verdana;';}
+.row:after{content: ""; display: table; clear: both;}
+.a100{float:left;width: 100%;padding:15px;}
+.a50{float:left;width: 50%;padding:15px;}
+.a25{float:left;width: 25%;padding:15px;}
+
+
+img {width: 100%; height: 350px; transition: 2s; border-radius: 10%;box-shadow: 10px gray; box-shadow: 10px 7px 5px rgb(54, 176, 228);}
+img:hover{transform: scale(1.10,1.20);}
+.A{font-size: 30px;font-weight:700;padding: 10px; color: white;text-align: center;}
+.B{font-size: 20px; font-weight: 700;padding: 2px 5px;color: gray;border-bottom: 1px solid coral;width: 7rem;}
+strike{color: rgb(87, 82, 83);}
+
+
+a{text-decoration: none;background-color: rgb(48, 44, 44);border: 1px solid chartreuse ; color: white;padding: 10px;border-radius: 5%;}
+a:hover{background-color: transparent;color: crimson;}
+body{background-color: aqua;}
+.change
+{background-image: url(pic14.jpg);
+
+background-size: cover;background-position: center;color: transparent;background-clip: text;
+-webkit-background-clip: text;
+}
+.change:hover{background-image: url(pic6.jpg);}
+
+h1{font-size: 7rem;text-align: center;}
+.logo .a25 img{width: 60%;height: 7rem;border-radius: 20%;filter: drop-shadow(10px 7px 5px gray);position: relative;left: 2rem;}
+.logo .a25 img:hover{transform:rotateY(360deg);transition: 5s;}
+.first a{margin-left: 2rem;background-color: gray;padding: 16px 15px;margin-top: -1rem;border-radius: 10%;font-weight: 700;font-size: 20px;}
+.first a:hover{background-color: rgb(194, 194, 149);color: rgb(150, 9, 9);}
+.last a {float: right;margin-right: 2rem;background-color: rgba(214, 199, 199, 0.283);padding: 16px 15px;margin-top: -2rem;border-radius: 10%;font-weight: 700;font-size: 20px;}
+.last a:hover{background-color: rgb(194, 194, 149);color: rgb(150, 9, 9);}
+
